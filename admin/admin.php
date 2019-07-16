@@ -16,7 +16,9 @@
 
         ?>
 
-        <h1>Livehelp configuration</h1>
+        <a href="https://www.livehelp.it" target="_blank" title="LiveHelp">
+            <img style="margin: 50px 0 0 30px;width: 300px;" src="<?php echo plugins_url('../img/logo.png',__FILE__); ?>" />
+        </a>
 
         <?php
 
@@ -33,13 +35,13 @@
                 if(!empty($lh_id)) {
                     ?>
                     <a href="<?php echo "$lh_site/mobile/?id=$lh_id"; ?>" target="_blank">
-                        <button class="lh-button lh-button-success">Agent's login</button>
+                        <button class="lh-button lh-button-success"><?php esc_html_e('Agent\'s login', 'livehelp-chat'); ?></button>
                     </a>
                     <a href="<?php echo "$lh_site/admin/main.asp"; ?>" target="_blank">
-                        <button class="lh-button lh-button-primary">Admin Dashboard</button>
+                        <button class="lh-button lh-button-primary"><?php esc_html_e('Admin dashboard', 'livehelp-chat'); ?></button>
                     </a>
                     <a href="<?php echo "$lh_site/admin/conferma.asp"; ?>" target="_blank">
-                        <button class="lh-button lh-button-danger">Buy NOW</button>
+                        <button class="lh-button lh-button-danger"><?php esc_html_e('Buy NOW', 'livehelp-chat'); ?></button>
                     </a>
                     <?php
                 }
@@ -53,7 +55,7 @@
     //ADMIN MENU HANDLE
     function livehelp_add_option_page () {
 		global $lh_url;
-        add_menu_page("livehelp Options", "Livehelp chat", "administrator", "livehelp-options-page", "livehelp_update_options_form", $lh_url . "img/lh-wordpress_16x16.png");
+        add_menu_page("LiveHelp", "LiveHelp", "administrator", "livehelp-options-page", "livehelp_update_options_form", "dashicons-format-chat");
     }
 
     //ADMIN

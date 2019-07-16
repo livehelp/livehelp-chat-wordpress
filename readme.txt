@@ -1,10 +1,11 @@
 === LiveHelp chat ===
 Contributors: alaciura
+Version: 1.4
 Donate link: http://www.livehelp.it/index.asp?lingua=EN
-Tags: live help,chat support, free live support, live chat, live chat support, live customer service, live customer support, live support chat, provide support, support chat,  web chat, livehelp
+Tags: live help, chat support, free live support, live chat, live chat support, live customer service, live customer support, live support chat, provide support, support chat,  web chat, livehelp
 Requires at least: 3.8.1
-Tested up to: 4.8
-Stable tag: 1.3.4
+Tested up to: 5.2
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +43,10 @@ No installation costs, only an annual fee with progressive discounts based on th
 
 This is the only official plugin for LiveHelp live chat.
 
+= Translations =
+You can add your translations here: [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/livehelp-chat) 
+
+
 == Installation ==
 
 1.	Click on "plugins" in the left panel, then click on "Add new".
@@ -78,43 +83,37 @@ http://www.livehelp.it/en/contact-us
 
 == Changelog ==
 
-= 1.0.0 =
-* First stable release
-Add LiveHelp chat to you site. Provide fast reliable chat to assist your customer. Cloud based no setup fees. Fully customizable!
-= 1.0.1 =
-* Added a new set of seven buttons.
-= 1.2.0 =
-* Added dynamic widget with activation rules.
-= 1.2.5 =
-* Minor bug fix.
-= 1.3.0 =
-* Minor bug fix.
-= 1.3.1 =
-* Minor bug fix.
-= 1.3.2 =
-* Major refactor to lighten the plugin.
-= 1.3.3 =
-* Menu icon updated and code refactored
+= 1.4 =
+* Integrated native WP translation system - New translations available soon!
+* Minor graphics improvements
+
+= 1.3.6 =
+* Tested with WP **5.2**
+* Improved strings and naming
+
 = 1.3.4 =
 * Menu icon fixed
 
-== Upgrade Notice ==
+= 1.3.3 =
+* Menu icon updated and code refactored
+
+= 1.3.2 =
+* Major refactor to lighten the plugin.
+
+= 1.3.1 =
+* Minor bug fix.
+
+= 1.3.0 =
+* Minor bug fix.
+
+= 1.2.5 =
+* Minor bug fix.
+
+= 1.2.0 =
+* Added dynamic widget with activation rules.
+
+= 1.0.1 =
+* Added a new set of seven buttons.
 
 = 1.0.0 =
-First release of Livehelp plugin.
-= 1.0.1 =
-Second stable release with more features.
-= 1.2.0 =
-Define activation rules of the new dynamic chat widget.
-= 1.2.5 =
-Minor release.
-= 1.3.0 =
-Minor release. Added wordpress 4.4 support.
-= 1.3.1 =
-Minor release
-= 1.3.2 =
-This update will speedup the admin page. Checked wordpress 4.8 support
-= 1.3.3 =
-This update will make the menu icon nicer :)
-= 1.3.3 =
-This upgrade will fix the menu icon
+* First stable release
