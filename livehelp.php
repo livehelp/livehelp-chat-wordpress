@@ -3,7 +3,7 @@
     Plugin Name: LiveHelp
     Plugin URI: http://www.livehelp.it/index.asp?lingua=EN
     Description: Provide livehelp chat support
-    Version: 1.4
+    Version: 1.4.2
     Author: Sostanza s.r.l
     Author URI: http://www.livehelp.it/index.asp?lingua=EN
     Text Domain: livehelp-chat

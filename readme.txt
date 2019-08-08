@@ -1,6 +1,6 @@
 === LiveHelp chat ===
 Contributors: alaciura
-Version: 1.4
+Version: 1.4.2
 Donate link: http://www.livehelp.it/index.asp?lingua=EN
 Tags: live help, chat support, free live support, live chat, live chat support, live customer service, live customer support, live support chat, provide support, support chat,  web chat, livehelp
 Requires at least: 3.8.1
@@ -79,7 +79,8 @@ http://www.livehelp.it/en/contact-us
 == Screenshots ==
 
 1. How to install the plugin
-2. In this panel you can configure the widget on frontend.
+2. In this panel you can configure the widget on frontend
+3. Chat window demo
 
 == Changelog ==
 
